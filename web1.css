@@ -1,0 +1,129 @@
+/*author: Ayumi Sofia O. Naval */
+*{
+padding:0px;margin:0px;}
+#wrapper {
+   border:0px;
+   padding:0px;
+}
+#header {
+    height:90px;
+    background-color:FireBrick;
+    text-align:left;
+    color:white;
+    font-size:45px;
+    font-family:Bold;
+    padding-top:11px;
+	width:984px;
+	padding-right:320px;
+	padding-left:130px;
+	margin-left:80px;
+	opacity:0.7;
+
+}
+#nav{
+    list-style-type: none;
+    padding:-10px;
+    margin-top:-105px;
+    overflow: hidden;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:0px;
+	padding-left:0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:200px;
+  background-color: DarkRed;
+  height:100%; 
+  position: fixed; 
+  overflow: auto; 
+}
+
+li a {
+  display: block;
+  color: white;
+  padding:16px;
+  text-decoration: none;
+  margin-top:50px;
+}
+
+li a:hover {
+  background-color: red;
+  color: white;
+}
+
+#container::after{container:"";display:block;clear:both}
+
+#article{
+    height:570px;
+    font-size:30px;
+    text-align:left;
+    padding:10px;
+    margin-top:131px;
+	padding-top:30px;
+	font-family:Bold;
+	color:Darkgoldenrod;
+	margin-left:250px;
+	width:30%;
+	border-radius:40px;
+	font-weight:900px;
+}
+#article2{
+	background-color:LightCoral;
+    height:105px;
+    font-size:20px;
+    text-align:left;
+    padding:10px;
+    margin-top:-410px;
+	font-family:Bold;
+	color:black;
+	margin-left:265px;
+	width:80%;
+	border-radius:30px;
+	font-weight:900px;
+}
+#article3{
+	background-color:LightCoral;
+    height:105px;
+    font-size:20px;
+    text-align:left;
+    padding:10px;
+    margin-top:30px;
+	font-family:Bold;
+	color:black;
+	margin-left:265px;
+	width:80%;
+	border-radius:30px;
+	font-weight:900px;
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  height:500px;
+  width:60%;
+  margin-left:400px;
+  margin-top:50px;
+}
+
+div.scroll-container img {
+  padding:10px;
+  
+}
+#footer{
+    background-color:#5D332D ;
+    height:200px;
+    font-size:35px;
+    text-align:left;
+    padding:10px;
+    margin-top:211px;
+	padding-top:100px;
+	font-family:Serif;
+	color:white;
+	margin-left:200px;
+	width:87%;
+	opacity:0.8;
+}

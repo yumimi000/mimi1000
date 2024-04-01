@@ -1,0 +1,145 @@
+/*author: Ayumi Sofia O. Naval */
+*{
+padding:0px;margin:0px;}
+#wrapper {
+   border:0px;
+   padding:0px;
+}
+#header {
+    height:90px;
+    background-color:FireBrick;
+    text-align:left;
+    color:white;
+    font-size:45px;
+    font-family:Bold;
+    padding-top:11px;
+	width:984px;
+	padding-right:320px;
+	padding-left:130px;
+	margin-left:80px;
+	opacity:0.7;
+
+}
+#nav{
+    list-style-type: none;
+    padding:-10px;
+    margin-top:-105px;
+    overflow: hidden;
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:0px;
+	padding-left:0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:200px;
+  background-color: DarkRed;
+  height:100%; 
+  position: fixed; 
+  overflow: auto; 
+}
+
+li a {
+  display: block;
+  color: white;
+  padding:16px;
+  text-decoration: none;
+  margin-top:50px;
+}
+
+li a:hover {
+  background-color: red;
+  color: white;
+}
+
+#container::after{container:"";display:block;clear:both}
+#article{
+    height:570px;
+    font-size:30px;
+    text-align:left;
+    padding:10px;
+    margin-top:131px;
+	padding-top:30px;
+	font-family:Bold;
+	color:Darkgoldenrod;
+	margin-left:250px;
+	width:30%;
+	border-radius:40px;
+	font-weight:900px;
+}
+.container {
+  position: relative;
+  width: 50%;
+  margin-left:300px;
+  margin-top:-400px;
+
+}
+
+.image {
+  display: block;
+  width: 150%;
+  height:700px;;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 150%;
+  right: 0;
+  background-color: silver;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0.5;
+ 
+}
+
+.container:hover .overlay {
+  width: 150%;
+  left: 0;
+}
+
+.text {
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  font-weight:900px;
+}
+#section{
+	background-color:;
+    height:150px;
+    font-size:20px;
+    text-align:left;
+    padding:10px;
+    margin-top:11px;
+	font-family:Bold;
+	color:Black;
+	margin-left:300px;
+	width:74%;
+	border-radius:40px;
+	font-weight:1000px;
+}
+#footer{
+    background-color:#5D332D ;
+    height:200px;
+    font-size:35px;
+    text-align:left;
+    padding:10px;
+    margin-top:211px;
+	padding-top:100px;
+	font-family:Serif;
+	color:white;
+	margin-left:200px;
+	width:87%;
+	opacity:0.8;
+}
